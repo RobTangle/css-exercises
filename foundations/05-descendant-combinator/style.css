@@ -6,7 +6,7 @@
 }
 
 /* TAMBIÉN DA RESULTADO CORRECTO, PERO NO ES EXACTAMENTE LO QUE PIDE EL EJERCICIO ME PARECE:
-div {
+div p {
   background-color: yellow;
   color: red;
   font-size: 20px;
