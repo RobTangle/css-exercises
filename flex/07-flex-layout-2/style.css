@@ -40,8 +40,12 @@ body {
 }
 
 .sidebar {
-  width: 300px;
+  min-width: 300px;
   background: royalblue;
+}
+
+.sidebar ul {
+  list-style-type: none;
 }
 
 .cards {
