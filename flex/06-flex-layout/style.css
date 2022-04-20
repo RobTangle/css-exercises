@@ -5,15 +5,18 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
-.header {
+.header,
+.footer {
   display: flex;
-  /* margin: 0em 1em 0em 1em; */
   padding: 8px 16px;
 }
 
-.header ul {
+.header ul,
+.footer ul {
   display: flex;
   list-style-type: none;
   gap: 20px;
@@ -28,10 +31,19 @@ a {
   text-decoration: none;
 }
 
-.content {
+.footer {
+  align-content: flex-end;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  background: rgba(39, 36, 36, 0.26);
+}
+
+.content {
+  flex: 1 1 0%;
+  display: flex;
   align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 img {
