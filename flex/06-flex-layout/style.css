@@ -53,3 +53,8 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+/* De acá en más voy a probar de convertir todo el contenido a un flex columna para que cada elemento se estire lo que correspone para que cubran todo el body/contenedor de la página. 
+El "content" (centro) va a tener que estirarse y empujar al footer y header a los extremos verticales. 
+ CHECKPOINT 
+ */
