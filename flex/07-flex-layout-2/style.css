@@ -49,6 +49,7 @@ body {
 
 .sidebar ul {
   list-style-type: none;
+  padding: 0px;
 }
 
 .sidebar ul li a {
