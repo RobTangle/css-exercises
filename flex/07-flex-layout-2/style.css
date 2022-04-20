@@ -20,6 +20,9 @@ body {
   font-size: 32px;
   font-weight: 900;
   padding: 16px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
 }
 
 .footer {
