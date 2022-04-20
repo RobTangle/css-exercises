@@ -43,6 +43,8 @@ body {
   width: 300px;
   min-width: 300px;
   background: royalblue;
+  padding: 16px;
+  box-sizing: border-box;
 }
 
 .sidebar ul {
