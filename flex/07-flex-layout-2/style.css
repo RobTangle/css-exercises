@@ -35,6 +35,7 @@ body {
 }
 
 .second-column {
+  display: flex;
   flex: 1;
 }
 
@@ -44,6 +45,7 @@ body {
 }
 
 .cards {
+  display: flex;
 }
 
 .card {
