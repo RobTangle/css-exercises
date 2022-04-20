@@ -51,6 +51,12 @@ body {
   list-style-type: none;
 }
 
+.sidebar ul li a {
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+}
+
 .cards {
   display: flex;
 }
